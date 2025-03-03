@@ -156,9 +156,7 @@ C:\Users\ASUS\Desktop\test\TinyURL\TinyURL.WebPage\obj\Debug\net9.0\TinyURL.WebP
 C:\Users\ASUS\Desktop\test\TinyURL\TinyURL.WebPage\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\ASUS\Desktop\test\TinyURL\TinyURL.WebPage\obj\Debug\net9.0\scopedcss\bundle\TinyURL.WebPage.styles.css
 C:\Users\ASUS\Desktop\test\TinyURL\TinyURL.WebPage\obj\Debug\net9.0\scopedcss\projectbundle\TinyURL.WebPage.bundle.scp.css
-C:\Users\ASUS\Desktop\test\TinyURL\TinyURL.WebPage\obj\Debug\net9.0\compressed\cidfmtf8k1-b9sayid5wm.gz
 C:\Users\ASUS\Desktop\test\TinyURL\TinyURL.WebPage\obj\Debug\net9.0\compressed\nuv3ecfys1-61n19gt1b8.gz
-C:\Users\ASUS\Desktop\test\TinyURL\TinyURL.WebPage\obj\Debug\net9.0\compressed\493k74lr2k-xtxxf3hu2r.gz
 C:\Users\ASUS\Desktop\test\TinyURL\TinyURL.WebPage\obj\Debug\net9.0\compressed\pwzpt5pfi1-bqjiyaj88i.gz
 C:\Users\ASUS\Desktop\test\TinyURL\TinyURL.WebPage\obj\Debug\net9.0\compressed\alj1jkvvx7-c2jlpeoesf.gz
 C:\Users\ASUS\Desktop\test\TinyURL\TinyURL.WebPage\obj\Debug\net9.0\compressed\m9suigq39l-erw9l3u2r3.gz
@@ -236,3 +234,4 @@ C:\Users\ASUS\Desktop\test\TinyURL\TinyURL.WebPage\obj\Debug\net9.0\refint\TinyU
 C:\Users\ASUS\Desktop\test\TinyURL\TinyURL.WebPage\obj\Debug\net9.0\TinyURL.WebPage.pdb
 C:\Users\ASUS\Desktop\test\TinyURL\TinyURL.WebPage\obj\Debug\net9.0\TinyURL.WebPage.genruntimeconfig.cache
 C:\Users\ASUS\Desktop\test\TinyURL\TinyURL.WebPage\obj\Debug\net9.0\ref\TinyURL.WebPage.dll
+C:\Users\ASUS\Desktop\test\TinyURL\TinyURL.WebPage\obj\Debug\net9.0\TinyURL.WebPage.sourcelink.json

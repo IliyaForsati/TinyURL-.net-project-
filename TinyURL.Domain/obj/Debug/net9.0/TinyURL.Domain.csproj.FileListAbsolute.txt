@@ -12,3 +12,4 @@ C:\Users\ASUS\Desktop\test\TinyURL\TinyURL.Domain\obj\Debug\net9.0\refint\TinyUR
 C:\Users\ASUS\Desktop\test\TinyURL\TinyURL.Domain\obj\Debug\net9.0\TinyURL.Domain.pdb
 C:\Users\ASUS\Desktop\test\TinyURL\TinyURL.Domain\obj\Debug\net9.0\TinyURL.Domain.genruntimeconfig.cache
 C:\Users\ASUS\Desktop\test\TinyURL\TinyURL.Domain\obj\Debug\net9.0\ref\TinyURL.Domain.dll
+C:\Users\ASUS\Desktop\test\TinyURL\TinyURL.Domain\obj\Debug\net9.0\TinyURL.Domain.sourcelink.json

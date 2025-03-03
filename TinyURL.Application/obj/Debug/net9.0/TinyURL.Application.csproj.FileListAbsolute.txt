@@ -13,3 +13,4 @@ C:\Users\ASUS\Desktop\test\TinyURL\TinyURL.Application\obj\Debug\net9.0\TinyURL.
 C:\Users\ASUS\Desktop\test\TinyURL\TinyURL.Application\obj\Debug\net9.0\refint\TinyURL.Application.dll
 C:\Users\ASUS\Desktop\test\TinyURL\TinyURL.Application\obj\Debug\net9.0\TinyURL.Application.pdb
 C:\Users\ASUS\Desktop\test\TinyURL\TinyURL.Application\obj\Debug\net9.0\ref\TinyURL.Application.dll
+C:\Users\ASUS\Desktop\test\TinyURL\TinyURL.Application\obj\Debug\net9.0\TinyURL.Application.sourcelink.json
