@@ -1,10 +1,8 @@
 ﻿using System;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.ModelBinding;
 using TinyURL.Application.util;
 using TinyURL.Domain.Interfaces;
 using TinyURL.Domain.Models;
-using static System.Net.Mime.MediaTypeNames;
 
 namespace TinyURL.WebPage.Controllers
 {
@@ -19,9 +17,9 @@ namespace TinyURL.WebPage.Controllers
         // get request
         public async Task<IActionResult> Index(int? id)
         {
-            string url = $"{Request.Scheme}://{Request.Host}{Request.Path}";
             if (id != null)
             {
+                string url = $"{Request.Scheme}://{Request.Host}{Request.Path}";
                 var links = await _linksRepo.GetAllAsync();
                 foreach (var link in links)
                 {
@@ -34,6 +32,8 @@ namespace TinyURL.WebPage.Controllers
 
                 if (!url.StartsWith("http://") && !url.StartsWith("https://"))
                     url = "http://" + url;
+
+                Console.WriteLine(url + "\n\n\n\n");
                 return Redirect(url);
             }
             return View();
@@ -48,7 +48,7 @@ namespace TinyURL.WebPage.Controllers
             if (!await NumberGenerator.isURLValidAsync(link.OriginalURL))
             {
                 ViewBag.message = "URL is invalid!";
-                return View(link);
+                return View(new LinkViewModel {Link = link, Links = null});
             }
 
             // this flag is for avoid creating link with same OriginalURL
@@ -56,11 +56,14 @@ namespace TinyURL.WebPage.Controllers
             var links = await _linksRepo.GetAllAsync();
             foreach (var l in links) 
             {
-                if (l.OriginalURL == link.OriginalURL)
+                if (l.OriginalURL == link.OriginalURL) 
+                {
+                    link = l;
                     flag = false;
+                }
             }
 
-            while (true)
+            while (flag)
             {
                 int num = NumberGenerator.generateNumber();
 
@@ -71,12 +74,12 @@ namespace TinyURL.WebPage.Controllers
                 }
 
                 link.ShortCutURLCode = num;
-                if (flag) await _linksRepo.AddAsync(link);
+                await _linksRepo.AddAsync(link);
                 break;
             }
 
             ViewData["This-Path"] = $"{Request.Scheme}://{Request.Host}{Request.Path}";
-            return View(link);
+            return View(new LinkViewModel {Link = link, Links = null});
         }
     }
 }

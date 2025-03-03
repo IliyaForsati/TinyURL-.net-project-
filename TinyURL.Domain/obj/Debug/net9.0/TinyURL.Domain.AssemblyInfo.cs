@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TinyURL.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f755cd45157d6ea5f3d571869f9f40fdd1685eaf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d0779eb227ad6f88ac033adb7ef44f0e6805768f")]
 [assembly: System.Reflection.AssemblyProductAttribute("TinyURL.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TinyURL.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

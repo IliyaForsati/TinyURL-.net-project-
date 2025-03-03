@@ -1,4 +1,4 @@
-﻿@model TinyURL.Domain.Models.Link
+﻿@model TinyURL.Domain.Models.LinkViewModel
 
 @*
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -7,8 +7,8 @@
 
 
 <form asp-action="index">
-    <label asp-for="OriginalURL">URL:</label><br />
-    <input asp-for="OriginalURL"/><br />
+    <label asp-for="Link.OriginalURL">URL:</label><br />
+    <input asp-for="Link.OriginalURL"/><br />
     @if (ViewBag.message != null)
     {
         <p>@ViewBag.message</p>
@@ -17,7 +17,7 @@
     {
         <div>
             <h4>your shortcut:</h4>
-            <a href="@Url.Action("Index", "Main", new { id = Model.ShortCutURLCode })">@ViewData["This-Path"]@Model.ShortCutURLCode</a>
+            <a href="@Url.Action("Index", "Main", new { id = Model.Link.ShortCutURLCode })">@ViewData["This-Path"]@Model.Link.ShortCutURLCode</a>
         </div>
     }
     <input type="submit" value="GET SHORTCUT" />
