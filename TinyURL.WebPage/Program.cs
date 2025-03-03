@@ -27,10 +27,13 @@ app.UseAuthorization();
 
 app.MapStaticAssets();
 
+app.MapGet("/{id}", (int id) => Results.Redirect($"Main/Index/{id}"));
+
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Main}/{action=Index}/{id?}")
-    .WithStaticAssets();
+    pattern: "{controller=Main}/{action=Index}/{id?}"
+    ).WithStaticAssets();
+
 
 
 app.Run();

@@ -10,4 +10,11 @@
     <label asp-for="OriginalURL">URL:</label><br />
     <input asp-for="OriginalURL"/><br />
     <input type="submit" value="GET SHORTCUT" />
+
+    @if (Model != null) {
+        <div>
+            <h4>your shortcut:</h4>
+            <a href="@Url.Action("Index", "Main", new { id = Model.ShortCutURLCode })">@ViewData["This-Path"]@Model.ShortCutURLCode</a>
+        </div>
+    }
 </form>

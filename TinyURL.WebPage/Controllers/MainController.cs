@@ -2,6 +2,7 @@
 using TinyURL.Application.util;
 using TinyURL.Domain.Interfaces;
 using TinyURL.Domain.Models;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace TinyURL.WebPage.Controllers
 {
@@ -14,8 +15,12 @@ namespace TinyURL.WebPage.Controllers
         }
 
         // get request
-        public IActionResult Index()
+        public IActionResult Index(int? id)
         {
+            if (id != null)
+            {
+                return Redirect("https://google.com");
+            }
             return View();
         }
         // post request
@@ -46,7 +51,9 @@ namespace TinyURL.WebPage.Controllers
                 break;
             }
 
-            return Content($"your shortcut is <http://localhost:5284/{link.ShortCutURLCode}>");
+            ViewData["This-Path"] = $"{Request.Scheme}://{Request.Host}{Request.Path}";
+            return View(link);
+            //return Content($"your shortcut is <http://localhost:5284/{link.ShortCutURLCode}>");
         }
     }
 }
