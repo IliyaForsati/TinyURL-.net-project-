@@ -43,10 +43,7 @@ namespace TinyURL.WebPage.Controllers
         [HttpPost]
         public async Task<IActionResult> Index([Bind("Id,OriginalURL")] Link link)
         {
-            // check validation of url
-            if (!link.OriginalURL.StartsWith("http://") && !link.OriginalURL.StartsWith("https://"))
-                link.OriginalURL = "http://" + link.OriginalURL;
-            if (!await NumberGenerator.isURLValidAsync(link.OriginalURL))
+            if (!await NumberGenerator.isURLValidAsync(link))
             {
                 ViewBag.message = "URL is invalid!";
                 return View(new LinkViewModel {Link = link, Links = null});
