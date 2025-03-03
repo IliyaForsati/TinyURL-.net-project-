@@ -1,0 +1,14 @@
+C:\Users\ASUS\Desktop\test\TinyURL\TinyURL.Domain\bin\Debug\net9.0\TinyURL.Domain.deps.json
+C:\Users\ASUS\Desktop\test\TinyURL\TinyURL.Domain\bin\Debug\net9.0\TinyURL.Domain.runtimeconfig.json
+C:\Users\ASUS\Desktop\test\TinyURL\TinyURL.Domain\bin\Debug\net9.0\TinyURL.Domain.dll
+C:\Users\ASUS\Desktop\test\TinyURL\TinyURL.Domain\bin\Debug\net9.0\TinyURL.Domain.pdb
+C:\Users\ASUS\Desktop\test\TinyURL\TinyURL.Domain\obj\Debug\net9.0\TinyURL.Domain.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\test\TinyURL\TinyURL.Domain\obj\Debug\net9.0\TinyURL.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\test\TinyURL\TinyURL.Domain\obj\Debug\net9.0\TinyURL.Domain.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\test\TinyURL\TinyURL.Domain\obj\Debug\net9.0\TinyURL.Domain.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\test\TinyURL\TinyURL.Domain\obj\Debug\net9.0\TinyURL.Domain.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\test\TinyURL\TinyURL.Domain\obj\Debug\net9.0\TinyURL.Domain.dll
+C:\Users\ASUS\Desktop\test\TinyURL\TinyURL.Domain\obj\Debug\net9.0\refint\TinyURL.Domain.dll
+C:\Users\ASUS\Desktop\test\TinyURL\TinyURL.Domain\obj\Debug\net9.0\TinyURL.Domain.pdb
+C:\Users\ASUS\Desktop\test\TinyURL\TinyURL.Domain\obj\Debug\net9.0\TinyURL.Domain.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\test\TinyURL\TinyURL.Domain\obj\Debug\net9.0\ref\TinyURL.Domain.dll
