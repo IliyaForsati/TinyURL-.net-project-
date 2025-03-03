@@ -15,5 +15,15 @@ namespace TinyURL.Infrastructure.Data
         }
 
         public DbSet<Link> Links { get; set; }
+
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<Link>()
+                .HasIndex(l => l.OriginalURL)
+                .IsUnique();
+        }
     }
 }

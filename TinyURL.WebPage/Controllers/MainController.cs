@@ -22,11 +22,19 @@ namespace TinyURL.WebPage.Controllers
         [HttpPost]
         public async Task<IActionResult> Index([Bind("Id,OriginalURL")] Link link)
         {
+            // this flag is for avoid creating link with same OriginalURL
+            var flag = true;
+            var links = await _linksRepo.GetAllAsync();
+            foreach (var l in links) 
+            {
+                if (l.OriginalURL == link.OriginalURL)
+                    flag = false;
+            }
+
             while (true)
             {
                 int num = NumberGenerator.generateNumber();
 
-                var links = await _linksRepo.GetAllAsync();
                 foreach (var l in links) 
                 {
                     if (l.ShortCutURLCode == num)
@@ -34,11 +42,11 @@ namespace TinyURL.WebPage.Controllers
                 }
 
                 link.ShortCutURLCode = num;
-                await _linksRepo.AddAsync(link);
+                if (flag) await _linksRepo.AddAsync(link);
                 break;
             }
 
-            return Redirect("google.com");
+            return Content($"your shortcut is <http://localhost:5284/{link.ShortCutURLCode}>");
         }
     }
 }
