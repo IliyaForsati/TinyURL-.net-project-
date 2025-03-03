@@ -1,5 +1,7 @@
 using Microsoft.EntityFrameworkCore;
+using TinyURL.Domain.Interfaces;
 using TinyURL.Infrastructure.Data;
+using TinyURL.Infrastructure.Repository;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,6 +10,9 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<ApplicationDbContext>(option =>
     option.UseSqlServer(builder.Configuration.GetConnectionString("ConnectionStr")));
+
+builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+
 
 var app = builder.Build();
 

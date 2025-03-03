@@ -10,6 +10,6 @@ namespace TinyURL.Domain.Models
     {
         public int Id { get; set; }
         public string OriginalURL { get; set; }
-        public string ShortCutURL { get; set; }
+        public int ShortCutURLCode { get; set; }
     }
 }

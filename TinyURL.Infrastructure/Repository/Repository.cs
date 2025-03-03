@@ -35,9 +35,9 @@ namespace TinyURL.Infrastructure.Repository
             }
         }
 
-        public Task<List<T>> GetAllAsync()
+        public async Task<List<T>> GetAllAsync()
         {
-            return _dbSet.ToListAsync();
+            return await _dbSet.ToListAsync();
         }
 
         public async Task<T> GetByIdAsync(int? id)
