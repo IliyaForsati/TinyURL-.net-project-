@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using System;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.ModelBinding;
 using TinyURL.Application.util;
 using TinyURL.Domain.Interfaces;
 using TinyURL.Domain.Models;
@@ -15,11 +17,24 @@ namespace TinyURL.WebPage.Controllers
         }
 
         // get request
-        public IActionResult Index(int? id)
+        public async Task<IActionResult> Index(int? id)
         {
+            string url = $"{Request.Scheme}://{Request.Host}{Request.Path}";
             if (id != null)
             {
-                return Redirect("https://google.com");
+                var links = await _linksRepo.GetAllAsync();
+                foreach (var link in links)
+                {
+                    if (link.ShortCutURLCode == id)
+                    {
+                        url = $"{link.OriginalURL}";
+                        break;
+                    }
+                }
+
+                if (!url.StartsWith("http://") && !url.StartsWith("https://"))
+                    url = "http://" + url;
+                return Redirect(url);
             }
             return View();
         }
@@ -27,6 +42,15 @@ namespace TinyURL.WebPage.Controllers
         [HttpPost]
         public async Task<IActionResult> Index([Bind("Id,OriginalURL")] Link link)
         {
+            // check validation of url
+            if (!link.OriginalURL.StartsWith("http://") && !link.OriginalURL.StartsWith("https://"))
+                link.OriginalURL = "http://" + link.OriginalURL;
+            if (!await NumberGenerator.isURLValidAsync(link.OriginalURL))
+            {
+                ViewBag.message = "URL is invalid!";
+                return View(link);
+            }
+
             // this flag is for avoid creating link with same OriginalURL
             var flag = true;
             var links = await _linksRepo.GetAllAsync();
@@ -53,7 +77,6 @@ namespace TinyURL.WebPage.Controllers
 
             ViewData["This-Path"] = $"{Request.Scheme}://{Request.Host}{Request.Path}";
             return View(link);
-            //return Content($"your shortcut is <http://localhost:5284/{link.ShortCutURLCode}>");
         }
     }
 }
