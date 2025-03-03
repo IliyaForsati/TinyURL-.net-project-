@@ -17,10 +17,11 @@ namespace TinyURL.WebPage.Controllers
         // get request
         public async Task<IActionResult> Index(int? id)
         {
+            var links = await _linksRepo.GetAllAsync();
+            string url = $"{Request.Scheme}://{Request.Host}{Request.Path}";
+
             if (id != null)
             {
-                string url = $"{Request.Scheme}://{Request.Host}{Request.Path}";
-                var links = await _linksRepo.GetAllAsync();
                 foreach (var link in links)
                 {
                     if (link.ShortCutURLCode == id)
@@ -33,10 +34,10 @@ namespace TinyURL.WebPage.Controllers
                 if (!url.StartsWith("http://") && !url.StartsWith("https://"))
                     url = "http://" + url;
 
-                Console.WriteLine(url + "\n\n\n\n");
                 return Redirect(url);
             }
-            return View();
+            ViewData["This-Path"] = url;
+            return View(new LinkViewModel { Link = null, Links = links});
         }
         // post request
         [HttpPost]
