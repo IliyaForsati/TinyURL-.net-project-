@@ -22,3 +22,32 @@
     }
     <input type="submit" value="GET SHORTCUT" />
 </form>
+
+@if (Model != null && Model.Links != null && Model.Links.Count > 0) 
+{
+    <table>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Original URL</th>
+                <th>Shortcut URL</th>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                int count = 1;
+                foreach (var link in Model.Links)
+                {
+                    <tr>
+                        <td>@count</td>
+                        <td>@link.OriginalURL</td>
+                        <td>
+                            <a href="@Url.Action("Index", "Main", new { id = link.ShortCutURLCode })">@ViewData["This-Path"]@link.ShortCutURLCode</a>
+                        </td>
+                    </tr>
+                    count++;
+                }
+            }
+        </tbody>
+    </table>
+}

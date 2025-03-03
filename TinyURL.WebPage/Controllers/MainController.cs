@@ -79,7 +79,7 @@ namespace TinyURL.WebPage.Controllers
             }
 
             ViewData["This-Path"] = $"{Request.Scheme}://{Request.Host}{Request.Path}";
-            return View(new LinkViewModel {Link = link, Links = null});
+            return View(new LinkViewModel {Link = link, Links = links});
         }
     }
 }
