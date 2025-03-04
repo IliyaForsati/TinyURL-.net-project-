@@ -10,7 +10,7 @@ namespace TinyURL.Domain.Models
     public class Link
     {
         public int Id { get; set; }
-        [Required]
+        [Required(ErrorMessage = "Username is required")]
         public string OriginalURL { get; set; }
         public int ShortCutURLCode { get; set; }
     }

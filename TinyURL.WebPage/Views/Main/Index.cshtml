@@ -4,50 +4,52 @@
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
 
-
-
-<form asp-action="index">
-    <label asp-for="Link.OriginalURL">URL:</label><br />
-    <input asp-for="Link.OriginalURL"/><br />
-    @if (ViewBag.message != null)
-    {
-        <p>@ViewBag.message</p>
-    }
-    else if (Model != null && Model.Link != null)
-    {
-        <div>
-            <h4>your shortcut:</h4>
-            <a href="@Url.Action("Index", "Main", new { id = Model.Link.ShortCutURLCode })">@ViewData["This-Path"]@Model.Link.ShortCutURLCode</a>
-        </div>
-    }
-    <input type="submit" value="GET SHORTCUT" />
-</form>
+<div id="form-div">
+    <form asp-action="index">
+        <label asp-for="Link.OriginalURL">URL:</label><br />
+        <input asp-for="Link.OriginalURL" placeholder="google.com" /><br />
+        @if (ViewBag.message != null)
+        {
+            <p>@ViewBag.message</p>
+        }
+        else if (Model != null && Model.Link != null)
+        {
+            <div>
+                <h4>your shortcut:</h4>
+                <a href="@Url.Action("Index", "Main", new { id = Model.Link.ShortCutURLCode })">@ViewData["This-Path"]@Model.Link.ShortCutURLCode</a>
+            </div>
+        }
+        <input type="submit" value="GET SHORTCUT" />
+    </form>
+</div>
 
 @if (Model != null && Model.Links != null && Model.Links.Count > 0) 
 {
-    <table>
-        <thead>
-            <tr>
-                <th>#</th>
-                <th>Original URL</th>
-                <th>Shortcut URL</th>
-            </tr>
-        </thead>
-        <tbody>
-            @{
-                int count = 1;
-                foreach (var link in Model.Links)
-                {
-                    <tr>
-                        <td>@count</td>
-                        <td>@link.OriginalURL</td>
-                        <td>
-                            <a href="@Url.Action("Index", "Main", new { id = link.ShortCutURLCode })">@ViewData["This-Path"]@link.ShortCutURLCode</a>
-                        </td>
-                    </tr>
-                    count++;
+    <div id="table-div">
+        <table>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Original URL</th>
+                    <th>Shortcut URL</th>
+                </tr>
+            </thead>
+            <tbody>
+                @{
+                    int count = 1;
+                    foreach (var link in Model.Links)
+                    {
+                        <tr>
+                            <td>@count</td>
+                            <td>@link.OriginalURL</td>
+                            <td>
+                                <a href="@Url.Action("Index", "Main", new { id = link.ShortCutURLCode })">@ViewData["This-Path"]@link.ShortCutURLCode</a>
+                            </td>
+                        </tr>
+                        count++;
+                    }
                 }
-            }
-        </tbody>
-    </table>
+            </tbody>
+        </table>
+    </div>
 }

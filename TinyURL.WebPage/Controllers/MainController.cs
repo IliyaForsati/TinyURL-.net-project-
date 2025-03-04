@@ -43,41 +43,47 @@ namespace TinyURL.WebPage.Controllers
         [HttpPost]
         public async Task<IActionResult> Index([Bind("Id,OriginalURL")] Link link)
         {
-            if (!await NumberGenerator.isURLValidAsync(link))
-            {
-                ViewBag.message = "URL is invalid!";
-                return View(new LinkViewModel {Link = link, Links = null});
-            }
-
-            // this flag is for avoid creating link with same OriginalURL
-            var flag = true;
             var links = await _linksRepo.GetAllAsync();
-            foreach (var l in links) 
-            {
-                if (l.OriginalURL == link.OriginalURL) 
-                {
-                    link = l;
-                    flag = false;
-                }
-            }
-
-            while (flag)
-            {
-                int num = NumberGenerator.generateNumber();
-
-                foreach (var l in links) 
-                {
-                    if (l.ShortCutURLCode == num)
-                        continue;
-                }
-
-                link.ShortCutURLCode = num;
-                await _linksRepo.AddAsync(link);
-                break;
-            }
-
             ViewData["This-Path"] = $"{Request.Scheme}://{Request.Host}{Request.Path}";
-            return View(new LinkViewModel {Link = link, Links = links});
+
+            if (ModelState.IsValid) 
+            {
+                if (!await NumberGenerator.isURLValidAsync(link))
+                {
+                    ViewBag.message = "URL is invalid!";
+                    return View(new LinkViewModel { Link = link, Links = links });
+                }
+
+                // this flag is for avoid creating link with same OriginalURL
+                var flag = true;
+                
+                foreach (var l in links)
+                {
+                    if (l.OriginalURL == link.OriginalURL)
+                    {
+                        link = l;
+                        flag = false;
+                    }
+                }
+
+                while (flag)
+                {
+                    int num = NumberGenerator.generateNumber();
+
+                    foreach (var l in links)
+                    {
+                        if (l.ShortCutURLCode == num)
+                            continue;
+                    }
+
+                    link.ShortCutURLCode = num;
+                    await _linksRepo.AddAsync(link);
+                    break;
+                }
+
+                return View(new LinkViewModel { Link = link, Links = links });
+            }
+            return View(new LinkViewModel { Link = null, Links = links });
         }
     }
 }

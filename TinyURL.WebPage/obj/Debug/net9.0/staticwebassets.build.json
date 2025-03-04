@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "K+GtLFIaz7/eEDKIqnJlizkk7nFDAmAOC//ncjY8wRA=",
+  "Hash": "b2Kwyct8YLVW4D97D+akK5UVpZcbKYezK5GaWlNJmeM=",
   "Source": "TinyURL.WebPage",
   "BasePath": "_content/TinyURL.WebPage",
   "Mode": "Default",
@@ -36,6 +36,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\ASUS\\Desktop\\test\\TinyURL\\TinyURL.WebPage\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\ASUS\\Desktop\\test\\TinyURL\\TinyURL.WebPage\\obj\\Debug\\net9.0\\compressed\\050r7yi7t5-3r8b2a0bt1.gz",
+      "SourceId": "TinyURL.WebPage",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ASUS\\Desktop\\test\\TinyURL\\TinyURL.WebPage\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/TinyURL.WebPage",
+      "RelativePath": "js/script#[.{fingerprint=3r8b2a0bt1}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\ASUS\\Desktop\\test\\TinyURL\\TinyURL.WebPage\\wwwroot\\js\\script.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "7t0uxwsjr0",
+      "Integrity": "Zd+4tKe+YyWXvSCQtbmshsT5I0pKoALzyCu8fniaMWo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\ASUS\\Desktop\\test\\TinyURL\\TinyURL.WebPage\\wwwroot\\js\\script.js"
     },
     {
       "Identity": "C:\\Users\\ASUS\\Desktop\\test\\TinyURL\\TinyURL.WebPage\\obj\\Debug\\net9.0\\compressed\\0o3g0q62oy-j5mq2jizvt.gz",
@@ -267,6 +288,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\ASUS\\Desktop\\test\\TinyURL\\TinyURL.WebPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\ASUS\\Desktop\\test\\TinyURL\\TinyURL.WebPage\\obj\\Debug\\net9.0\\compressed\\6ec270llbp-moyq9mh8kt.gz",
+      "SourceId": "TinyURL.WebPage",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ASUS\\Desktop\\test\\TinyURL\\TinyURL.WebPage\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/TinyURL.WebPage",
+      "RelativePath": "css/style#[.{fingerprint=moyq9mh8kt}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\ASUS\\Desktop\\test\\TinyURL\\TinyURL.WebPage\\wwwroot\\css\\style.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "v82kybde8p",
+      "Integrity": "ofndPM+Oq9LQNaeMIpsKibA3YXzu+4wj9L54fnYrUfI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\ASUS\\Desktop\\test\\TinyURL\\TinyURL.WebPage\\wwwroot\\css\\style.css"
     },
     {
       "Identity": "C:\\Users\\ASUS\\Desktop\\test\\TinyURL\\TinyURL.WebPage\\obj\\Debug\\net9.0\\compressed\\76wyukzhc3-y7v9cxd14o.gz",
@@ -1361,6 +1403,27 @@
       "OriginalItemSpec": "C:\\Users\\ASUS\\Desktop\\test\\TinyURL\\TinyURL.WebPage\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\TinyURL.WebPage.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\ASUS\\Desktop\\test\\TinyURL\\TinyURL.WebPage\\wwwroot\\css\\style.css",
+      "SourceId": "TinyURL.WebPage",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ASUS\\Desktop\\test\\TinyURL\\TinyURL.WebPage\\wwwroot\\",
+      "BasePath": "_content/TinyURL.WebPage",
+      "RelativePath": "css/style#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "moyq9mh8kt",
+      "Integrity": "FgOOfBfNMjdAzctItjkDjnLSLsA6OdaxJD4fPgxQTtI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    },
+    {
       "Identity": "C:\\Users\\ASUS\\Desktop\\test\\TinyURL\\TinyURL.WebPage\\wwwroot\\favicon.ico",
       "SourceId": "TinyURL.WebPage",
       "SourceType": "Discovered",
@@ -1380,6 +1443,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\ASUS\\Desktop\\test\\TinyURL\\TinyURL.WebPage\\wwwroot\\js\\script.js",
+      "SourceId": "TinyURL.WebPage",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ASUS\\Desktop\\test\\TinyURL\\TinyURL.WebPage\\wwwroot\\",
+      "BasePath": "_content/TinyURL.WebPage",
+      "RelativePath": "js/script#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3r8b2a0bt1",
+      "Integrity": "8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\script.js"
     },
     {
       "Identity": "C:\\Users\\ASUS\\Desktop\\test\\TinyURL\\TinyURL.WebPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
@@ -2644,6 +2728,304 @@
   ],
   "Endpoints": [
     {
+      "Route": "css/style.css",
+      "AssetFile": "C:\\Users\\ASUS\\Desktop\\test\\TinyURL\\TinyURL.WebPage\\obj\\Debug\\net9.0\\compressed\\6ec270llbp-moyq9mh8kt.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.005102040816"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "195"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ofndPM+Oq9LQNaeMIpsKibA3YXzu+4wj9L54fnYrUfI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 17:49:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"FgOOfBfNMjdAzctItjkDjnLSLsA6OdaxJD4fPgxQTtI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FgOOfBfNMjdAzctItjkDjnLSLsA6OdaxJD4fPgxQTtI="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.css",
+      "AssetFile": "C:\\Users\\ASUS\\Desktop\\test\\TinyURL\\TinyURL.WebPage\\wwwroot\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "364"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FgOOfBfNMjdAzctItjkDjnLSLsA6OdaxJD4fPgxQTtI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 17:49:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FgOOfBfNMjdAzctItjkDjnLSLsA6OdaxJD4fPgxQTtI="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.css.gz",
+      "AssetFile": "C:\\Users\\ASUS\\Desktop\\test\\TinyURL\\TinyURL.WebPage\\obj\\Debug\\net9.0\\compressed\\6ec270llbp-moyq9mh8kt.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "195"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ofndPM+Oq9LQNaeMIpsKibA3YXzu+4wj9L54fnYrUfI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 17:49:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ofndPM+Oq9LQNaeMIpsKibA3YXzu+4wj9L54fnYrUfI="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.moyq9mh8kt.css",
+      "AssetFile": "C:\\Users\\ASUS\\Desktop\\test\\TinyURL\\TinyURL.WebPage\\obj\\Debug\\net9.0\\compressed\\6ec270llbp-moyq9mh8kt.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.005102040816"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "195"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ofndPM+Oq9LQNaeMIpsKibA3YXzu+4wj9L54fnYrUfI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 17:49:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"FgOOfBfNMjdAzctItjkDjnLSLsA6OdaxJD4fPgxQTtI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "moyq9mh8kt"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FgOOfBfNMjdAzctItjkDjnLSLsA6OdaxJD4fPgxQTtI="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.moyq9mh8kt.css",
+      "AssetFile": "C:\\Users\\ASUS\\Desktop\\test\\TinyURL\\TinyURL.WebPage\\wwwroot\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "364"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FgOOfBfNMjdAzctItjkDjnLSLsA6OdaxJD4fPgxQTtI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 17:49:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "moyq9mh8kt"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FgOOfBfNMjdAzctItjkDjnLSLsA6OdaxJD4fPgxQTtI="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.moyq9mh8kt.css.gz",
+      "AssetFile": "C:\\Users\\ASUS\\Desktop\\test\\TinyURL\\TinyURL.WebPage\\obj\\Debug\\net9.0\\compressed\\6ec270llbp-moyq9mh8kt.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "195"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ofndPM+Oq9LQNaeMIpsKibA3YXzu+4wj9L54fnYrUfI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 17:49:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "moyq9mh8kt"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ofndPM+Oq9LQNaeMIpsKibA3YXzu+4wj9L54fnYrUfI="
+        }
+      ]
+    },
+    {
       "Route": "favicon.61n19gt1b8.ico",
       "AssetFile": "C:\\Users\\ASUS\\Desktop\\test\\TinyURL\\TinyURL.WebPage\\obj\\Debug\\net9.0\\compressed\\nuv3ecfys1-61n19gt1b8.gz",
       "Selectors": [
@@ -2938,6 +3320,304 @@
         {
           "Name": "integrity",
           "Value": "sha256-jcY0RXFOlcp4VNTCcYQtWVZZBlr+ZY+AOv6/0S5dnF8="
+        }
+      ]
+    },
+    {
+      "Route": "js/script.3r8b2a0bt1.js",
+      "AssetFile": "C:\\Users\\ASUS\\Desktop\\test\\TinyURL\\TinyURL.WebPage\\obj\\Debug\\net9.0\\compressed\\050r7yi7t5-3r8b2a0bt1.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.041666666667"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Zd+4tKe+YyWXvSCQtbmshsT5I0pKoALzyCu8fniaMWo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 16:47:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3r8b2a0bt1"
+        },
+        {
+          "Name": "label",
+          "Value": "js/script.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U="
+        }
+      ]
+    },
+    {
+      "Route": "js/script.3r8b2a0bt1.js",
+      "AssetFile": "C:\\Users\\ASUS\\Desktop\\test\\TinyURL\\TinyURL.WebPage\\wwwroot\\js\\script.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 16:47:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3r8b2a0bt1"
+        },
+        {
+          "Name": "label",
+          "Value": "js/script.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U="
+        }
+      ]
+    },
+    {
+      "Route": "js/script.3r8b2a0bt1.js.gz",
+      "AssetFile": "C:\\Users\\ASUS\\Desktop\\test\\TinyURL\\TinyURL.WebPage\\obj\\Debug\\net9.0\\compressed\\050r7yi7t5-3r8b2a0bt1.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Zd+4tKe+YyWXvSCQtbmshsT5I0pKoALzyCu8fniaMWo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 16:47:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3r8b2a0bt1"
+        },
+        {
+          "Name": "label",
+          "Value": "js/script.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Zd+4tKe+YyWXvSCQtbmshsT5I0pKoALzyCu8fniaMWo="
+        }
+      ]
+    },
+    {
+      "Route": "js/script.js",
+      "AssetFile": "C:\\Users\\ASUS\\Desktop\\test\\TinyURL\\TinyURL.WebPage\\obj\\Debug\\net9.0\\compressed\\050r7yi7t5-3r8b2a0bt1.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.041666666667"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Zd+4tKe+YyWXvSCQtbmshsT5I0pKoALzyCu8fniaMWo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 16:47:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U="
+        }
+      ]
+    },
+    {
+      "Route": "js/script.js",
+      "AssetFile": "C:\\Users\\ASUS\\Desktop\\test\\TinyURL\\TinyURL.WebPage\\wwwroot\\js\\script.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 16:47:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U="
+        }
+      ]
+    },
+    {
+      "Route": "js/script.js.gz",
+      "AssetFile": "C:\\Users\\ASUS\\Desktop\\test\\TinyURL\\TinyURL.WebPage\\obj\\Debug\\net9.0\\compressed\\050r7yi7t5-3r8b2a0bt1.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Zd+4tKe+YyWXvSCQtbmshsT5I0pKoALzyCu8fniaMWo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 16:47:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Zd+4tKe+YyWXvSCQtbmshsT5I0pKoALzyCu8fniaMWo="
         }
       ]
     },

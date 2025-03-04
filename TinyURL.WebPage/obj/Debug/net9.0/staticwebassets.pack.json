@@ -5,8 +5,16 @@
       "PackagePath": "staticwebassets\\TinyURL.WebPage.271l93vaxl.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\ASUS\\Desktop\\test\\TinyURL\\TinyURL.WebPage\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
       "Id": "C:\\Users\\ASUS\\Desktop\\test\\TinyURL\\TinyURL.WebPage\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\test\\TinyURL\\TinyURL.WebPage\\wwwroot\\js\\script.js",
+      "PackagePath": "staticwebassets\\js\\script.js"
     },
     {
       "Id": "C:\\Users\\ASUS\\Desktop\\test\\TinyURL\\TinyURL.WebPage\\wwwroot\\lib\\bootstrap\\LICENSE",

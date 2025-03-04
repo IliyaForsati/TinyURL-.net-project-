@@ -1,4 +1,5 @@
 C:\Users\ASUS\Desktop\test\TinyURL\TinyURL.WebPage\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+C:\Users\ASUS\Desktop\test\TinyURL\TinyURL.WebPage\wwwroot\js\script.js
 C:\Users\ASUS\Desktop\test\TinyURL\TinyURL.WebPage\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
 C:\Users\ASUS\Desktop\test\TinyURL\TinyURL.WebPage\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
 C:\Users\ASUS\Desktop\test\TinyURL\TinyURL.WebPage\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
@@ -10,6 +11,7 @@ C:\Users\ASUS\Desktop\test\TinyURL\TinyURL.WebPage\wwwroot\lib\bootstrap\dist\cs
 C:\Users\ASUS\Desktop\test\TinyURL\TinyURL.WebPage\wwwroot\lib\jquery-validation\LICENSE.md
 C:\Users\ASUS\Desktop\test\TinyURL\TinyURL.WebPage\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
 C:\Users\ASUS\Desktop\test\TinyURL\TinyURL.WebPage\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+C:\Users\ASUS\Desktop\test\TinyURL\TinyURL.WebPage\wwwroot\css\style.css
 C:\Users\ASUS\Desktop\test\TinyURL\TinyURL.WebPage\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
 C:\Users\ASUS\Desktop\test\TinyURL\TinyURL.WebPage\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
 C:\Users\ASUS\Desktop\test\TinyURL\TinyURL.WebPage\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
@@ -58,7 +60,9 @@ C:\Users\ASUS\Desktop\test\TinyURL\TinyURL.WebPage\wwwroot\lib\jquery\LICENSE.tx
 C:\Users\ASUS\Desktop\test\TinyURL\TinyURL.WebPage\wwwroot\lib\bootstrap\dist\css\bootstrap.css
 C:\Users\ASUS\Desktop\test\TinyURL\TinyURL.WebPage\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
 C:\Users\ASUS\Desktop\test\TinyURL\TinyURL.WebPage\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+wwwroot\css\style.css
 wwwroot\favicon.ico
+wwwroot\js\script.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
 wwwroot\lib\bootstrap\dist\css\bootstrap.min.css

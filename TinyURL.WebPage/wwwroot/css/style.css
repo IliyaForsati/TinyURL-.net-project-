@@ -1,3 +1,23 @@
-﻿.container {
-    
+﻿body {
+    display: grid;
+    place-items: center;
+    height: 40vh;
+    background-color: cornsilk;
+}
+
+.container {
+    display: grid;
+    place-items: center;
+    width: 30%;
+    height: 600px;
+    background-color: cadetblue;
+    margin: 10%;
+}
+
+#table-div {
+    background-color: burlywood;
+}
+
+#form-div {
+    background-color: cyan;
 }
