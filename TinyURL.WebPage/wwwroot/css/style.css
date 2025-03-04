@@ -2,7 +2,7 @@
     display: grid;
     place-items: center;
     height: 40vh;
-    background-color: cornsilk;
+    background-image: url("/img/b1.jpeg");
 }
 
 .container {
@@ -10,14 +10,49 @@
     place-items: center;
     width: 30%;
     height: 600px;
-    background-color: cadetblue;
+    background-color: rgba(109, 109, 109, 0.6);
     margin: 10%;
 }
 
-#table-div {
-    background-color: burlywood;
+#form-div {
+    width: 80%;
+    height: 80%;
+    background-color: rgba(109, 109, 109, 0.9);
 }
 
-#form-div {
-    background-color: cyan;
+#table-div {
+    background-color: rgba(109, 109, 109, 0.8);
+    min-height: 10px;
+    max-height: 200px;
+    overflow-y: auto;
+}
+#table-div::-webkit-scrollbar {
+    width: 6px;
+    max-width: 6px;
+}
+#table-div::-webkit-scrollbar-thumb {
+    max-width: 2px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+table {
+    color: rgba(213, 213, 213, 1);
+    table-layout: fixed;
+    border: 2px solid black;
+    border-collapse: collapse;
+    overflow: hidden;
+}
+
+th:nth-child(1), td:nth-child(1) {
+    border: 2px solid rgba(0, 0, 0, 0.6);
+}
+
+th:nth-child(n+2), td:nth-child(n+2) {
+    border: 2px solid rgba(0, 0, 0, 0.6);
+    width: 200px;
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }

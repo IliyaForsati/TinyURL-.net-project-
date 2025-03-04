@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\ASUS\\Desktop\\test\\TinyURL\\TinyURL.WebPage\\wwwroot\\img\\b1.jpeg",
+      "PackagePath": "staticwebassets\\img\\b1.jpeg"
+    },
+    {
       "Id": "C:\\Users\\ASUS\\Desktop\\test\\TinyURL\\TinyURL.WebPage\\wwwroot\\js\\script.js",
       "PackagePath": "staticwebassets\\js\\script.js"
     },

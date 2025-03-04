@@ -1,25 +1,21 @@
 ﻿@model TinyURL.Domain.Models.LinkViewModel
 
-@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-
 <div id="form-div">
     <form asp-action="index">
-        <label asp-for="Link.OriginalURL">URL:</label><br />
-        <input asp-for="Link.OriginalURL" placeholder="google.com" /><br />
+        <label asp-for="Link.OriginalURL">URL:</label><br id="label-URL"/>
+        <input asp-for="Link.OriginalURL" placeholder="Enter long link here" id="text-field"/><br />
         @if (ViewBag.message != null)
         {
-            <p>@ViewBag.message</p>
+            <p id="error-message">@ViewBag.message</p>
         }
         else if (Model != null && Model.Link != null)
         {
             <div>
-                <h4>your shortcut:</h4>
-                <a href="@Url.Action("Index", "Main", new { id = Model.Link.ShortCutURLCode })">@ViewData["This-Path"]@Model.Link.ShortCutURLCode</a>
+                <h4 id="your-shrtcut-Label">your shortcut:</h4>
+                <a href="@Url.Action("Index", "Main", new { id = Model.Link.ShortCutURLCode })" id="a-have-link">@ViewData["This-Path"]@Model.Link.ShortCutURLCode</a>
             </div>
         }
-        <input type="submit" value="GET SHORTCUT" />
+        <input type="submit" value="GET SHORTCUT" id="submit-button"/>
     </form>
 </div>
 
