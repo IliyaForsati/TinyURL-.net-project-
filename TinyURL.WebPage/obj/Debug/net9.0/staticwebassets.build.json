@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "waRoXRNkQdjMJAR24BgRPq0i07+eYkXlUM1dP7QqVhw=",
+  "Hash": "K3osSJvNhlJ3bQuM41MJEGqRHjCF0gEm0U3UIDhSKj0=",
   "Source": "TinyURL.WebPage",
   "BasePath": "_content/TinyURL.WebPage",
   "Mode": "Default",
@@ -290,12 +290,12 @@
       "OriginalItemSpec": "C:\\Users\\ASUS\\Desktop\\test\\TinyURL\\TinyURL.WebPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\Desktop\\test\\TinyURL\\TinyURL.WebPage\\obj\\Debug\\net9.0\\compressed\\6ec270llbp-e9x0fk63h2.gz",
+      "Identity": "C:\\Users\\ASUS\\Desktop\\test\\TinyURL\\TinyURL.WebPage\\obj\\Debug\\net9.0\\compressed\\6ec270llbp-owje3yu9jk.gz",
       "SourceId": "TinyURL.WebPage",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ASUS\\Desktop\\test\\TinyURL\\TinyURL.WebPage\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/TinyURL.WebPage",
-      "RelativePath": "css/style#[.{fingerprint=e9x0fk63h2}]?.css.gz",
+      "RelativePath": "css/style#[.{fingerprint=owje3yu9jk}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -304,8 +304,8 @@
       "RelatedAsset": "C:\\Users\\ASUS\\Desktop\\test\\TinyURL\\TinyURL.WebPage\\wwwroot\\css\\style.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "4ccdkrsf1a",
-      "Integrity": "TCBiRVkLgLT0CVIWQlxirCkuK/y6f2uHVf2HC2Cc8xw=",
+      "Fingerprint": "lq2p82figi",
+      "Integrity": "HZquX/U9Qugky0O0msrNMUlMNjqUbUqDqD4ykWE04Ic=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\ASUS\\Desktop\\test\\TinyURL\\TinyURL.WebPage\\wwwroot\\css\\style.css"
@@ -1417,8 +1417,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "e9x0fk63h2",
-      "Integrity": "nvh700PCTMPUvDrjykan2/5IkmwnKZLurXwjJbX4H4U=",
+      "Fingerprint": "owje3yu9jk",
+      "Integrity": "SCd4P3ZJdWUpejaUc5W43DjTyltMxx65fAN9bwindI8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\style.css"
@@ -2750,12 +2750,12 @@
   "Endpoints": [
     {
       "Route": "css/style.css",
-      "AssetFile": "C:\\Users\\ASUS\\Desktop\\test\\TinyURL\\TinyURL.WebPage\\obj\\Debug\\net9.0\\compressed\\6ec270llbp-e9x0fk63h2.gz",
+      "AssetFile": "C:\\Users\\ASUS\\Desktop\\test\\TinyURL\\TinyURL.WebPage\\obj\\Debug\\net9.0\\compressed\\6ec270llbp-owje3yu9jk.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.002192982456"
+          "Quality": "0.001858736059"
         }
       ],
       "ResponseHeaders": [
@@ -2765,15 +2765,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "455"
+          "Value": "537"
         },
         {
           "Name": "ETag",
-          "Value": "\"TCBiRVkLgLT0CVIWQlxirCkuK/y6f2uHVf2HC2Cc8xw=\""
+          "Value": "\"HZquX/U9Qugky0O0msrNMUlMNjqUbUqDqD4ykWE04Ic=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 08:41:53 GMT"
+          "Value": "Tue, 04 Mar 2025 09:09:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2793,13 +2793,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"nvh700PCTMPUvDrjykan2/5IkmwnKZLurXwjJbX4H4U=\""
+          "Value": "W/\"SCd4P3ZJdWUpejaUc5W43DjTyltMxx65fAN9bwindI8=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-nvh700PCTMPUvDrjykan2/5IkmwnKZLurXwjJbX4H4U="
+          "Value": "sha256-SCd4P3ZJdWUpejaUc5W43DjTyltMxx65fAN9bwindI8="
         }
       ]
     },
@@ -2814,7 +2814,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1268"
+          "Value": "1383"
         },
         {
           "Name": "Content-Type",
@@ -2822,11 +2822,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"nvh700PCTMPUvDrjykan2/5IkmwnKZLurXwjJbX4H4U=\""
+          "Value": "\"SCd4P3ZJdWUpejaUc5W43DjTyltMxx65fAN9bwindI8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 08:41:53 GMT"
+          "Value": "Tue, 04 Mar 2025 09:09:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2836,13 +2836,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-nvh700PCTMPUvDrjykan2/5IkmwnKZLurXwjJbX4H4U="
+          "Value": "sha256-SCd4P3ZJdWUpejaUc5W43DjTyltMxx65fAN9bwindI8="
         }
       ]
     },
     {
       "Route": "css/style.css.gz",
-      "AssetFile": "C:\\Users\\ASUS\\Desktop\\test\\TinyURL\\TinyURL.WebPage\\obj\\Debug\\net9.0\\compressed\\6ec270llbp-e9x0fk63h2.gz",
+      "AssetFile": "C:\\Users\\ASUS\\Desktop\\test\\TinyURL\\TinyURL.WebPage\\obj\\Debug\\net9.0\\compressed\\6ec270llbp-owje3yu9jk.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2851,7 +2851,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "455"
+          "Value": "537"
         },
         {
           "Name": "Content-Type",
@@ -2859,11 +2859,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"TCBiRVkLgLT0CVIWQlxirCkuK/y6f2uHVf2HC2Cc8xw=\""
+          "Value": "\"HZquX/U9Qugky0O0msrNMUlMNjqUbUqDqD4ykWE04Ic=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 08:41:53 GMT"
+          "Value": "Tue, 04 Mar 2025 09:09:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2881,18 +2881,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-TCBiRVkLgLT0CVIWQlxirCkuK/y6f2uHVf2HC2Cc8xw="
+          "Value": "sha256-HZquX/U9Qugky0O0msrNMUlMNjqUbUqDqD4ykWE04Ic="
         }
       ]
     },
     {
-      "Route": "css/style.e9x0fk63h2.css",
-      "AssetFile": "C:\\Users\\ASUS\\Desktop\\test\\TinyURL\\TinyURL.WebPage\\obj\\Debug\\net9.0\\compressed\\6ec270llbp-e9x0fk63h2.gz",
+      "Route": "css/style.owje3yu9jk.css",
+      "AssetFile": "C:\\Users\\ASUS\\Desktop\\test\\TinyURL\\TinyURL.WebPage\\obj\\Debug\\net9.0\\compressed\\6ec270llbp-owje3yu9jk.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.002192982456"
+          "Quality": "0.001858736059"
         }
       ],
       "ResponseHeaders": [
@@ -2902,15 +2902,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "455"
+          "Value": "537"
         },
         {
           "Name": "ETag",
-          "Value": "\"TCBiRVkLgLT0CVIWQlxirCkuK/y6f2uHVf2HC2Cc8xw=\""
+          "Value": "\"HZquX/U9Qugky0O0msrNMUlMNjqUbUqDqD4ykWE04Ic=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 08:41:53 GMT"
+          "Value": "Tue, 04 Mar 2025 09:09:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2930,13 +2930,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"nvh700PCTMPUvDrjykan2/5IkmwnKZLurXwjJbX4H4U=\""
+          "Value": "W/\"SCd4P3ZJdWUpejaUc5W43DjTyltMxx65fAN9bwindI8=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "e9x0fk63h2"
+          "Value": "owje3yu9jk"
         },
         {
           "Name": "label",
@@ -2944,12 +2944,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-nvh700PCTMPUvDrjykan2/5IkmwnKZLurXwjJbX4H4U="
+          "Value": "sha256-SCd4P3ZJdWUpejaUc5W43DjTyltMxx65fAN9bwindI8="
         }
       ]
     },
     {
-      "Route": "css/style.e9x0fk63h2.css",
+      "Route": "css/style.owje3yu9jk.css",
       "AssetFile": "C:\\Users\\ASUS\\Desktop\\test\\TinyURL\\TinyURL.WebPage\\wwwroot\\css\\style.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2959,7 +2959,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1268"
+          "Value": "1383"
         },
         {
           "Name": "Content-Type",
@@ -2967,11 +2967,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"nvh700PCTMPUvDrjykan2/5IkmwnKZLurXwjJbX4H4U=\""
+          "Value": "\"SCd4P3ZJdWUpejaUc5W43DjTyltMxx65fAN9bwindI8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 08:41:53 GMT"
+          "Value": "Tue, 04 Mar 2025 09:09:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2981,7 +2981,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "e9x0fk63h2"
+          "Value": "owje3yu9jk"
         },
         {
           "Name": "label",
@@ -2989,13 +2989,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-nvh700PCTMPUvDrjykan2/5IkmwnKZLurXwjJbX4H4U="
+          "Value": "sha256-SCd4P3ZJdWUpejaUc5W43DjTyltMxx65fAN9bwindI8="
         }
       ]
     },
     {
-      "Route": "css/style.e9x0fk63h2.css.gz",
-      "AssetFile": "C:\\Users\\ASUS\\Desktop\\test\\TinyURL\\TinyURL.WebPage\\obj\\Debug\\net9.0\\compressed\\6ec270llbp-e9x0fk63h2.gz",
+      "Route": "css/style.owje3yu9jk.css.gz",
+      "AssetFile": "C:\\Users\\ASUS\\Desktop\\test\\TinyURL\\TinyURL.WebPage\\obj\\Debug\\net9.0\\compressed\\6ec270llbp-owje3yu9jk.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3004,7 +3004,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "455"
+          "Value": "537"
         },
         {
           "Name": "Content-Type",
@@ -3012,11 +3012,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"TCBiRVkLgLT0CVIWQlxirCkuK/y6f2uHVf2HC2Cc8xw=\""
+          "Value": "\"HZquX/U9Qugky0O0msrNMUlMNjqUbUqDqD4ykWE04Ic=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 08:41:53 GMT"
+          "Value": "Tue, 04 Mar 2025 09:09:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3034,7 +3034,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "e9x0fk63h2"
+          "Value": "owje3yu9jk"
         },
         {
           "Name": "label",
@@ -3042,7 +3042,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-TCBiRVkLgLT0CVIWQlxirCkuK/y6f2uHVf2HC2Cc8xw="
+          "Value": "sha256-HZquX/U9Qugky0O0msrNMUlMNjqUbUqDqD4ykWE04Ic="
         }
       ]
     },
