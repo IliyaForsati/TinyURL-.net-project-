@@ -2,8 +2,8 @@
 
 <div id="form-div">
     <form asp-action="index">
-        <label asp-for="Link.OriginalURL">URL:</label><br id="label-URL"/>
-        <input asp-for="Link.OriginalURL" placeholder="Enter long link here" id="text-field"/><br />
+        <label asp-for="Link.OriginalURL" id="label-URL">Enter long link here:</label><br />
+        <input asp-for="Link.OriginalURL" placeholder="google.com" id="text-field"/><br />
         @if (ViewBag.message != null)
         {
             <p id="error-message">@ViewBag.message</p>
